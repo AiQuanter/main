@@ -32,7 +32,7 @@ To get started, clone this repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/AiQuanter/main.git
-cd project
+cd main
 pip install -r requirements.txt
 ```
 
