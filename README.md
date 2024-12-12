@@ -49,14 +49,6 @@ Currently, this repository contains demo code that demonstrates the basic struct
 3. **Forecasting Meme Success**:
    - Use AI models to predict which meme coin themes and concepts are most likely to succeed based on trends and sentiment.
 
-## Example Output
-
-After running the processes, the following outputs can be expected:
-
-- **Data Collection**: A list of collected posts with sentiment scores.
-- **Trend Analysis**: Top 10 trending hashtags and the average sentiment of posts.
-- **Meme Prediction**: A message indicating whether a meme is likely to succeed, e.g., "Meme 'doge' success prediction: Success".
-
 ## Future Enhancements
 
 - Full **real-time predictions** using streaming data.
