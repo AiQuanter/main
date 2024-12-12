@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  aiquanter:
+    build: .
+    container_name: aiquanter
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python main.py
+    depends_on:
+      - redis
+    networks:
+      - aiquanter-network
+  redis:
+    image: "redis:6.2"
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - aiquanter-network
+
+networks:
+  aiquanter-network:
+    driver: bridge
